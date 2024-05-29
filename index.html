@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Aman Jinodiya">Aman Jinodiya</h1>
+
+                    <p class="title">Full Stack developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richard@example.com" class="contact-link">amanjinodiya2@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+91 6284706681</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">June 12, 2001</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Chandigarh, India</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am a passionate software engineer with expertise in developing full-stack applications using
+                        Spring Boot, Angular, and Hibernate. My experience includes integrating payment gateways like
+                        Razorpay, optimizing database access, and securing applications with Spring Security. I am
+                        committed to delivering efficient, user-friendly solutions through continuous learning and
+                        innovation.
+                    </p>
+
+                    <p>
+                        With hands-on experience from internships at PKWARE and CillyFox Corporation, I have
+                        successfully implemented robust APIs, analyzed website traffic using Google Analytics, and
+                        managed secure user authentication with Firebase. I thrive on solving complex problems and
+                        enhancing application performance, always aiming to deliver impactful and scalable solutions.
+                    </p>
+                </section>
+
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What i'm doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web design</h4>
+
+                                <p class="service-item-text">
+                                    The most modern and high-quality design made at a professional level.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+
+                                <p class="service-item-text">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Android Development</h4>
+
+                                <p class="service-item-text">
+                                    Professional development of applications for iOS and Android.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                                <p class="service-item-text">
+                                    I make high-quality development at a professional level.
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!--
+          - testimonials
+        -->
+
+                <section class="testimonials">
+
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Harsh dev</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Aman was hired to create a screens for our app. We were very pleased with the
+                                        work done. he has a
+                                        lot of experience
+                                        and is very concerned about the needs of client.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ajay Singh</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Aman was hired to work on our ongoing project . We were very pleased with the
+                                        work done. He has a
+                                        lot of experience
+                                        and is very concerned about the needs of client.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Akashdeep Singh</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Aman was hired to create our Android App. We were very pleased with the work
+                                        done.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-4.png" alt="Henry william" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anant Singh</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Richard was hired to create our Website. We were very pleased with the work
+                                        done.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                            <time datetime="2021-06-14">14 June, 2021</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Richard was hired to create a corporate identity. We were very pleased with the work
+                                    done. She has a
+                                    lot of experience
+                                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+                                    ullamcous cididt
+                                    consectetur adipiscing
+                                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <!--
+          - clients
+        -->
+
+                <section class="clients">
+
+                    <h3 class="h3 clients-title">Compaines</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/pklogo.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">University Institute of Engineering and Technolgy, Panjab
+                                University</h4>
+
+                            <span>2020 — 2024</span>
+
+                            <p class="timeline-text">
+                                Did Becholors of Engineering in Information Technolgy.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Shri Vidhya Sagar Public School</h4>
+
+                            <span>Dewas</span>
+
+
+                        </li>
+
+
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Pkware</h4>
+
+                            <span>Software Engineer Intern | Mohali | Jan 2024 — May 2024</span>
+
+
+                            <p class="timeline-text">
+                                • Engineered a full-stack web application using Spring Boot and Angular, resulting in a
+                                30% increase in application
+                                performance.<br>
+                                • Led the implementation of payment integration using Razorpay.<br>
+                                • Developed and maintained RESTful APIs with Spring Boot.<br>
+                                • Utilized Hibernate for ORM, improving database access efficiency by 35%.<br>
+                                • Secured application endpoints with Spring Security, reducing security vulnerabilities.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">CillyFox Corporation</h4>
+
+                            <span>Software Engineer Intern | Mumbai | Nov 2022 — Apr 2023</span>
+
+                            <p class="timeline-text">
+                                API Integration: Implemented document upload functionality using APIs.<br>
+                                • Google Analytics: Analyzed website traffic and user behaviorto provide actionable
+                                insights .<br>
+                                • Firebase Account Creation: Managed user accounts and implemented secure
+                                authentication.<br>
+                                • Link: https://play.google.com/store/apps/details?id=com.mjk.ppsapp
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Telelabs Chandigarh</h4>
+
+                            <span>Software Engineer Intern | Chandigarh | Feb 2022 — Oct 2022</span>
+
+                            <p class="timeline-text">
+                                • Retrofit API Integration.<br>
+• MVVM Architecture Implementation.<br>
+• Authentication, Ecommerce (Sell and Buy) Feature Development.<br>
+• Cart UI Creation and Retrofit API Integration.<br>
+• Report File Generation and Download.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web design</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Android Development</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Angular</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>Projects</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                           
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="Android development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com/profile/portfolio/thumbnail/068647033d3419078461827ff0fb85e2?response-content-disposition=inline;+filename=%22image_original%22;+filename*=utf-8%27%27image_original&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz//////////wEaCXVzLXdlc3QtMiJHMEUCIQDqDDWOqZPZhYaDwpSWPVfqncWKoV/eZG156hzuAYCzwAIgZvUaXBfj6bYwH0OdbrQf9hgC4fv44V/i5lIDppgGI18qzQQIFRAAGgw3Mzk5MzkxNzM4MTkiDG70fAVttisLH0G/qyqqBM5d2/Lwcbewi8SAZbmK34wj6ospZZ4y7OyCXl16hOF2A8wWzg3SasQUFJHxPU2zknxSuoqhURTYhgWbNYCmR3SSWQVCWZpRD1z7FurqUjCcqRWrzgwHStnQTokyZlajrnfwgHYwdObSqUmW9qLNdiX/h8qW7GdYrmGJPOWjGrVEajOUXnnkyD8/QkYRX1zRcAOTpr2Sledm15QFtyQxpKi%2BgoDg7BdPwmmQLDm24/hhG6StneHtBFkpiGWanx8K5q3AUlOk8wsx8Z6qHSj%2BVuACrxe42VloDaCoFjUCl1bd7XfgrGgnowvp9llON/UVH26WAD0nLBsHc91VA7UkSJMa47e0fw%2B5sioV7GuEy7DSDPooznG2jZVPF6Ol9u6E57GGTgXh6L7A7iUGRbehZJaY18hzz5ItjHBE0gbbU9bLIZjdOaruXn%2Bk%2BMW3sHsPIGqQMTGttJzAm5%2BOrAPfoEqUKXvKHYTKaW6iMM%2BAzzUG5qfZnOG9H76LlOq9LQf9REwN2zvmU42i7nMtIDeTlhVwzZMmBTGsKxmmH9b7zSWdasd94DH0YLkcxiYyFt5t5ywD7wQTLABdhn%2BBF00PtIjWZ71aBp1WPm/%2Bvax1hPMYu3pY1LHVz/xkRfPCvGYLapXdUUPOLN0DEW7fWqhTEs9RSHtSG6mC2I2dU1Ke34LAUjCXmvgPvDX38M6b2fU7OmeZrcpO1RSydyqtw6KEY%2BI6jk/iwaQD6c4eMIyq3LIGOqcB5N1fyOHOvUGd07Acqngav5jJnvSBwmziWGYOM4IQqiKdr5DjIK7JTG3O2WsO/266DDoLzMF3jr8Nzb2EzRwJm/1RXs7hjX9TawLcRczobjUypAk/EJtcvx/WExQvUKcJAYCWn2KBAXw67msdfjz9VNcvUeaXz16D12W2jwF%2BtqlRRhfnKXUc026VLUt/3UROc2uw%2BoZ6ejFQT1ln/dhAQxfOjmB1aDU=&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240529T122556Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA2YR6PYW52LOGSX4D/20240529/us-west-2/s3/aws4_request&X-Amz-Signature=9cac589e89cfbceb25ec88f210771626fbcc68424340163ce960f2b61573b41b" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Gymnascia</h3>
+
+                                <p class="project-category">Android development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Android development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com/profile/portfolio/thumbnail/b294860156055f3417521df57ca87d35?response-content-disposition=inline;+filename=%22image_original%22;+filename*=utf-8%27%27image_original&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz//////////wEaCXVzLXdlc3QtMiJIMEYCIQD6wOhW2uImidxqbMUGIkctWYyBJpD2ZxMLVctkvZXe%2BwIhAPVVEWxioVe5iiXJeeZrCRBNUHkAFrOXWyAsXr/Aqty0Ks0ECBUQABoMNzM5OTM5MTczODE5IgztjA/6TMjhgtRVElkqqgQirN%2BDm%2Bi/ts9xsaib6HdKQaf3ExijZamUc%2BGGo0mOIBEiOi9UoJpYFg1j5IuM8HQ856/2Hc5tGrCRbF%2BK27SNv3rjp9RhB/GAcJ%2BswhAMhaBjBkJ3iZH9DZxPkZeqIyXLhYNDdcfPd2TtI3uSfnKLG8MrYcsGPzudpM5Ve0yCjnbMFjEqA%2Bu4MmvqUOyb3KZoiCC5qHpr3lMZefYag/kvbVW4xCwrOWGeQ/RuO6Ok0XoWgQmyFNywqlZmKas1jerAKxeamcZD%2B0%2BdG9WX7%2BqJ55Te5FUlZDvis7sRiHU8Z8OE6ZtezQdvNXLGDui/A/G01aRx%2B8hyCSP20BMfN/GG0KKSgi9wLehVQiXt/4qD8bijFc7SOlZ2TceygEsJC8AY3nL7bpZz9T3uo94OYbcwJvbXHTwABnc%2BqqEtIGskYkpSq4JNERXfcsmpx0D95KfFL16TvZe4N7LpgGAk95%2BM1Ad4XcmUATTdWJWRTfCKx%2BtjH251gfpaCWULcKeFr5sR3Y19SLWdamjJ9bMHdgn0WUzwWUh2W/h7V1Qscv3M/Wdx4DFM2KMU9m6xil8h6gRxO2Lsnlg/qrtK9i9ed/daHoxeVF9itWuMaJTkdwmhnOssfxPaPAxyO4YCmzEz4fA/voM2TFjgqbpZTGKOQy%2BhHdib37S353/52l4KhnDFeQG9CwffLI9xVpdhfw3gUkbPxyAGP2%2BrTUl9Ir6QEXiFIgmP5invic4tqjDErNyyBjqmAT3Xt/PcfBRau19DsZYksEI7sIYQ/IzIZtq86iCV/9EMFTVDwI5nehtg3K0n2DRc/y1RHZ54aJwNqHkkiVgIf5CzadqYPnNBUYdIHehMoUsgpjoMhLVOkk0Lj22XwK0eoQVv2tbityQXo/DDi2Fpdgm%2B2W6O8iYAB/ppuBScSl6NFYR/H7dWuMlDSd5Mtv4ixHC6kaSUZuwZdf/AfsNp6LD0%2BgT%2BpM0=&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240529T122936Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA2YR6PYW5Q7YL7T6J/20240529/us-west-2/s3/aws4_request&X-Amz-Signature=7a8d5055d775585a05d4fe5115a2afb50127c1f78c3a876390f0501da5389250" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Classroom App</h3>
+
+                                <p class="project-category">Android development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Android development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com/profile/portfolio/thumbnail/ca46308cfae4fe35b395e1a3e340c114?response-content-disposition=inline;+filename=%22image_original%22;+filename*=utf-8%27%27image_original&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz//////////wEaCXVzLXdlc3QtMiJIMEYCIQD6wOhW2uImidxqbMUGIkctWYyBJpD2ZxMLVctkvZXe%2BwIhAPVVEWxioVe5iiXJeeZrCRBNUHkAFrOXWyAsXr/Aqty0Ks0ECBUQABoMNzM5OTM5MTczODE5IgztjA/6TMjhgtRVElkqqgQirN%2BDm%2Bi/ts9xsaib6HdKQaf3ExijZamUc%2BGGo0mOIBEiOi9UoJpYFg1j5IuM8HQ856/2Hc5tGrCRbF%2BK27SNv3rjp9RhB/GAcJ%2BswhAMhaBjBkJ3iZH9DZxPkZeqIyXLhYNDdcfPd2TtI3uSfnKLG8MrYcsGPzudpM5Ve0yCjnbMFjEqA%2Bu4MmvqUOyb3KZoiCC5qHpr3lMZefYag/kvbVW4xCwrOWGeQ/RuO6Ok0XoWgQmyFNywqlZmKas1jerAKxeamcZD%2B0%2BdG9WX7%2BqJ55Te5FUlZDvis7sRiHU8Z8OE6ZtezQdvNXLGDui/A/G01aRx%2B8hyCSP20BMfN/GG0KKSgi9wLehVQiXt/4qD8bijFc7SOlZ2TceygEsJC8AY3nL7bpZz9T3uo94OYbcwJvbXHTwABnc%2BqqEtIGskYkpSq4JNERXfcsmpx0D95KfFL16TvZe4N7LpgGAk95%2BM1Ad4XcmUATTdWJWRTfCKx%2BtjH251gfpaCWULcKeFr5sR3Y19SLWdamjJ9bMHdgn0WUzwWUh2W/h7V1Qscv3M/Wdx4DFM2KMU9m6xil8h6gRxO2Lsnlg/qrtK9i9ed/daHoxeVF9itWuMaJTkdwmhnOssfxPaPAxyO4YCmzEz4fA/voM2TFjgqbpZTGKOQy%2BhHdib37S353/52l4KhnDFeQG9CwffLI9xVpdhfw3gUkbPxyAGP2%2BrTUl9Ir6QEXiFIgmP5invic4tqjDErNyyBjqmAT3Xt/PcfBRau19DsZYksEI7sIYQ/IzIZtq86iCV/9EMFTVDwI5nehtg3K0n2DRc/y1RHZ54aJwNqHkkiVgIf5CzadqYPnNBUYdIHehMoUsgpjoMhLVOkk0Lj22XwK0eoQVv2tbityQXo/DDi2Fpdgm%2B2W6O8iYAB/ppuBScSl6NFYR/H7dWuMlDSd5Mtv4ixHC6kaSUZuwZdf/AfsNp6LD0%2BgT%2BpM0=&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240529T123223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA2YR6PYW5Q7YL7T6J/20240529/us-west-2/s3/aws4_request&X-Amz-Signature=7e6d9132ef2505783d5102c5e4603da334b88fc0f4866f2ecc12f549dd32b54a" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Book Share</h3>
+
+                                <p class="project-category">Android development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Android development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com/profile/portfolio/thumbnail/ca46308cfae4fe35b395e1a3e340c114?response-content-disposition=inline;+filename=%22image_original%22;+filename*=utf-8%27%27image_original&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz//////////wEaCXVzLXdlc3QtMiJIMEYCIQD6wOhW2uImidxqbMUGIkctWYyBJpD2ZxMLVctkvZXe%2BwIhAPVVEWxioVe5iiXJeeZrCRBNUHkAFrOXWyAsXr/Aqty0Ks0ECBUQABoMNzM5OTM5MTczODE5IgztjA/6TMjhgtRVElkqqgQirN%2BDm%2Bi/ts9xsaib6HdKQaf3ExijZamUc%2BGGo0mOIBEiOi9UoJpYFg1j5IuM8HQ856/2Hc5tGrCRbF%2BK27SNv3rjp9RhB/GAcJ%2BswhAMhaBjBkJ3iZH9DZxPkZeqIyXLhYNDdcfPd2TtI3uSfnKLG8MrYcsGPzudpM5Ve0yCjnbMFjEqA%2Bu4MmvqUOyb3KZoiCC5qHpr3lMZefYag/kvbVW4xCwrOWGeQ/RuO6Ok0XoWgQmyFNywqlZmKas1jerAKxeamcZD%2B0%2BdG9WX7%2BqJ55Te5FUlZDvis7sRiHU8Z8OE6ZtezQdvNXLGDui/A/G01aRx%2B8hyCSP20BMfN/GG0KKSgi9wLehVQiXt/4qD8bijFc7SOlZ2TceygEsJC8AY3nL7bpZz9T3uo94OYbcwJvbXHTwABnc%2BqqEtIGskYkpSq4JNERXfcsmpx0D95KfFL16TvZe4N7LpgGAk95%2BM1Ad4XcmUATTdWJWRTfCKx%2BtjH251gfpaCWULcKeFr5sR3Y19SLWdamjJ9bMHdgn0WUzwWUh2W/h7V1Qscv3M/Wdx4DFM2KMU9m6xil8h6gRxO2Lsnlg/qrtK9i9ed/daHoxeVF9itWuMaJTkdwmhnOssfxPaPAxyO4YCmzEz4fA/voM2TFjgqbpZTGKOQy%2BhHdib37S353/52l4KhnDFeQG9CwffLI9xVpdhfw3gUkbPxyAGP2%2BrTUl9Ir6QEXiFIgmP5invic4tqjDErNyyBjqmAT3Xt/PcfBRau19DsZYksEI7sIYQ/IzIZtq86iCV/9EMFTVDwI5nehtg3K0n2DRc/y1RHZ54aJwNqHkkiVgIf5CzadqYPnNBUYdIHehMoUsgpjoMhLVOkk0Lj22XwK0eoQVv2tbityQXo/DDi2Fpdgm%2B2W6O8iYAB/ppuBScSl6NFYR/H7dWuMlDSd5Mtv4ixHC6kaSUZuwZdf/AfsNp6LD0%2BgT%2BpM0=&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240529T123223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA2YR6PYW5Q7YL7T6J/20240529/us-west-2/s3/aws4_request&X-Amz-Signature=7e6d9132ef2505783d5102c5e4603da334b88fc0f4866f2ecc12f549dd32b54a" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Crowd Donation</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+        
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6857.34710957817!2d76.75194135!3d30.755669949999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed8b6a111699%3A0xf09ce165ada919bc!2sMaharana%20Pratap%20Hostel%2C%20Sector%2025%20West%2C%20Chandigarh%2C%20160036!5e0!3m2!1sen!2sin!4v1716987887389!5m2!1sen!2sin"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
